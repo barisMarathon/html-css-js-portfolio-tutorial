@@ -36,9 +36,9 @@ a, .btn {
 .image-rounder {
     width: 45vh;
     height: 100%; /* Keep the aspect ratio of 9:16 */
-    aspect-ratio: 9 / 16;
+    
     border-radius: 50%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image fits inside the container */
+    object-fit: scale-down; /* Ensures the image fits inside the container */
     overflow: hidden; /* Ensures the image stays within the rounded container */
 }
 
